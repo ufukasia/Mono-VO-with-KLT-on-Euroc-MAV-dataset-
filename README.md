@@ -1,0 +1,2 @@
+# Mono VO with KLT on Euroc MAV dataset 
+ **monoMAV** is a Python-based project that implements Monocular Visual Odometry (VO) using camera data, integrated with ground truth comparison from the EuRoC MAV dataset. This project processes and interpolates IMU and ground truth data to synchronize them with camera timestamps, enabling accurate trajectory estimation and performance evaluation against ground truth measurements.
