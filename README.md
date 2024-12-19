@@ -1,4 +1,8 @@
-# Visual Odometry (VO) for Euroc MAV Dataset
+# Visual Odometry (VO) with KLT tracker for Euroc MAV Dataset
+
+The Euroc MAV dataset is not a stable dataset like the kitti. It is almost impossible for the system to make inferences using only visual elements. 
+However, it is clear that such a software will be very useful for understanding coordinate system transformations. 
+This code will form a basis for various fusions.
 
 This project implements a Visual Odometry (VO) application using the Euroc MAV dataset. Stereo camera images synchronized with IMU data are used for feature tracking and pose estimation. Real-time trajectory predictions and comparisons of Euler angles are presented with visual outputs.
 
@@ -68,9 +72,6 @@ In `test.py`, the real-time trajectory is drawn in three different planes:
 ```plaintext
 ├── test.py                # Main executable file
 ├── visual_odometry.py     # Visual odometry class and helper functions
-├── comp.png               # Euler angles and velocity comparisons
-├── traj.png               # Real-time trajectory visualization
-└── README.md              # Project documentation
 ```
 
 ## License
