@@ -44,11 +44,6 @@ python test.py
 
 ![Real-Time Trajectory](traj.png)
 
-## Description
-
-### IMU Data Preprocessing
-
-The `preprocess_imu_data()` function synchronizes IMU data with ground truth data. It corrects the time shift between IMU and ground truth timestamps and generates synchronized data through interpolation.
 
 ### Visual Odometry (VO)
 
